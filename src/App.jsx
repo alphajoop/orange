@@ -1,9 +1,9 @@
+import Hero from './components/Hero';
+
 function App() {
   return (
-    <div className="bg-orange-100 py-20 px-4">
-      <h1 className="text-3xl md:text-5xl font-bold text-black font-inter">
-        Hello Orange telecom!
-      </h1>
+    <div className="bg-black p-4 md:p-10">
+      <Hero />
     </div>
   );
 }
