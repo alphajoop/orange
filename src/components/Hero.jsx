@@ -2,9 +2,9 @@ import bannerImage from '../assets/bannerImage.png';
 
 function Hero() {
   return (
-    <section>
-      <div className="grid text-white">
-        <div className="min-h-[400px] flex mt-0 sm:mt-0">
+    <section className=" bg-black mt-16 py-10">
+      <div className="grid text-white container">
+        <div className="min-h-[420px] flex mt-0 sm:mt-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
             <div className="order-2 sm:order-1">
               <h1 className="text-3xl md:text-5xl font-bold text-orange-100 font-inter">
