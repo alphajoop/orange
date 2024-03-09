@@ -48,10 +48,10 @@ export default function Navbar() {
 
   return (
     <header>
-      <nav className="bg-black fixed w-full top-0 start-0 border-b z-50 py-2 px-4 md:px-12">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
+      <nav className="bg-black fixed w-full top-0 start-0 border-b border-b-gray-700 z-50 py-2">
+        <div className="container max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
           <a
-            href="https://flowbite.com/"
+            href=""
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src={Logo} className="h-10" alt="Orange Logo" />
@@ -66,9 +66,9 @@ export default function Navbar() {
               className="inline-flex items-center p-2 text-sm font-medium text-center rounded-lg hover:bg-transparent focus:ring-transparent focus:outline-none"
             >
               {theme === 'dark' ? (
-                <Moon className={'w-8 h-8 text-white'} />
+                <Moon className={'w-7 h-7 md:w-8 md:h-8 text-white'} />
               ) : (
-                <Sun className={'w-8 h-8 text-white'} />
+                <Sun className={'w-7 h-7 md:w-8 md:h-8 text-white'} />
               )}
               <svg
                 className="w-2.5 h-2.5 ms-2 text-white"
@@ -101,7 +101,7 @@ export default function Navbar() {
                     type="button"
                     className="flex items-center w-full p-2 text-base font-medium text-gray-900 bg-white rounded-lg hover:bg-transparent focus:ring-transparent focus:outline-none"
                   >
-                    <Moon className={'w-7 h-7 mr-2'} />
+                    <Moon className={'w-6 md:w-7 h-6 md:h-7 mr-2'} />
                     Dark
                   </button>
                 </li>
@@ -110,7 +110,7 @@ export default function Navbar() {
                     type="button"
                     className="flex items-center w-full p-2 text-base font-medium text-gray-900 bg-white rounded-lg hover:bg-transparent focus:ring-transparent focus:outline-none"
                   >
-                    <Sun className={'w-7 h-7 mr-2'} />
+                    <Sun className={'w-6 md:w-7 h-6 md:h-7 mr-2'} />
                     Light
                   </button>
                 </li>
