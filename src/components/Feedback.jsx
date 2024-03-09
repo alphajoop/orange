@@ -12,7 +12,11 @@ function Feedback() {
 
   return (
     <section className="bg-yellow-300 py-12">
-      <div className="container mx-auto max-w-screen-lg px-4">
+      <div
+        className="container mx-auto max-w-screen-lg px-4"
+        data-aos="zoom-out-right"
+        data-aos-offset="0"
+      >
         <h2 className="mb-8 text-3xl md:text-5xl tracking-tight font-extrabold text-center font-inter text-black">
           Feedback
         </h2>
