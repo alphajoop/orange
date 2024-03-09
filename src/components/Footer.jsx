@@ -30,7 +30,11 @@ function Footer() {
       <div className="border-t border-gray-700 mt-6 py-4">
         <div className="container mx-auto text-center">
           <p className="text-sm">
-            © {new Date().getFullYear()} Orange Telecom. Tous droits réservés.
+            © {new Date().getFullYear()}{' '}
+            <a href="https://github.com/alphajoop" target="_blank">
+              Alpha Diop
+            </a>{' '}
+            | All Rights Reserved
           </p>
         </div>
       </div>
