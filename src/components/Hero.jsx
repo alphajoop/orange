@@ -2,7 +2,7 @@ import bannerImage from '../assets/bannerImage.png';
 
 function Hero() {
   return (
-    <section className=" bg-black mt-16 py-10">
+    <section className=" bg-black mt-14 py-10">
       <div className="grid text-white container">
         <div className="min-h-[420px] flex mt-0 sm:mt-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
@@ -20,6 +20,9 @@ function Hero() {
                 engageons à vous fournir des solutions fiables et adaptées à vos
                 besoins.
               </p>
+              <button className="bg-orange-100 font-inter rounded-sm text-black font-bold py-2 px-4 mt-4 hover:bg-white hover:text-black transition duration-300">
+                En savoir plus
+              </button>
             </div>
             <div className="order-1 sm:order-2">
               <img

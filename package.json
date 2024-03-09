@@ -1,6 +1,6 @@
 {
-  "name": "orangetelecom",
-  "private": true,
+  "name": "orange",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
